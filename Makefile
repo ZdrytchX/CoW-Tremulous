@@ -411,6 +411,7 @@ else # ifeq darwin
 #############################################################################
 
 ifeq ($(PLATFORM),mingw32)
+CC=gcc
 
 ifndef WINDRES
 WINDRES=windres
